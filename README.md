@@ -44,4 +44,18 @@ An under construction API to use FEBio with Gmesh meshes
     > Rigth click on: ```Loads``` and select: ```Add <selected> force```
     
     Here the dialog box will depend on the selected force. Each of them has his own parameters to set, for instance: type of load, value, direction. Again, once you have determined the correct load, you will be able to add the corresponding structure that recieve this load. In this case, depending on the structure that you want to select the buttom you should have activated in the top menu bar (make sure to have selected "surface" to select a whole surface in one try, or "face" to select specific element faces one by one, or "body" if you are interesting in select a whole body.)
+    
+    The last step before you be able to run your own simulation is to add at least one step (one more that the default step (initial)). The explanation of what is a step, and what is for is not quite straightforward, so I left here a extract of the original User's Manual of PrevIew (the previsualizator of FEBio):
+    
+    _"...You’ll see that PreView by default creates a single step, named the Initial step. The initial step serves a special purpose since it collects all the constraints, such as boundary conditions, loads, contact interfaces, etc. that do not depend on a particular step. In other words, all the constraints that are defined for this step will be applied during the initialization phase of the analysis and will remain active throughout all the steps. This is different from constraints defined in an analysis step, since those constraints will only remain active during that particular step..."_
+    
+    So, to add a step, you should do:
+    
+    > Rigth click on: ```Step``` and select: ```Add step```
+    
+    In the dialog box that appears select the type of analysis you want to do, and set all the corresponding parameters to meet with your necessities.
+    
+    Now, you only have to save you model and pressing F5 to run, or throught GUI:
+    
+    > Click on: ``` FEBio``` >> ``` run ```
 
