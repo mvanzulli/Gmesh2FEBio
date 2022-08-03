@@ -51,11 +51,21 @@ An under construction API to use FEBio with Gmesh meshes
     
     So, to add a step, you should do:
     
-    > Rigth click on: ```Step``` and select: ```Add step```
+    > Rigth click on: `Step` and select: `Add step`
     
     In the dialog box that appears select the type of analysis you want to do, and set all the corresponding parameters to meet with your necessities.
     
     Now, you only have to save you model and pressing F5 to run, or throught GUI:
     
-    > Click on: ``` FEBio``` >> ``` run ```
+    > Click on: ` FEBio` >> ` run `
+    
+    After the solver finish to work (if yoyu are lucky), FEBio Studio will ask you if you want to open the results. Press ok, and analyze the displacements, stresses, Safety Factors, etc of you model!
+    
+    If you are not so lucky, do not be discouraged!
+        
+    - Analyze where the simulation broked, that could give you a hint about what happened
+    - Make sure that your model is not overconstrained nor underconstrained.
+    - Take a look at the shape of elements, FEBio has sume tools to analyze the sharpness and size homogenity of elements (among others)
+    - Do a check in forums for similar problems, it is likely that someone already had to deal with similar issues.
+    - Try it again!
 
