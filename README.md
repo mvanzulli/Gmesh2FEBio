@@ -19,8 +19,14 @@ An under construction API to use FEBio with Gmesh meshes
     pip install -r requirements-dev.txt
     ```
     
-    
-2. The GMsh mesh has to be exported as a <NAME>.msh file in the "VERSION 2 ASCII" format in order to be correctly loaded by FEBio Studio.
+       
+    2. The GMsh mesh has to be exported as a <NAME>.msh file in the "VERSION 2 ASCII" format in order to be correctly loaded by FEBio Studio. To do so you should click on:
+
+> Click on: ```File``` select ```Export``` and save it with .MSH file format. 
+
+Then automatically a Box dialog will come up and we select:
+
+> VERSION 2 ASCII and we tick ```Save all elements``` 
     
 3. In FEBio Studio.
     
