@@ -1,4 +1,4 @@
-# Gmesh2FEBio*
+# Gmesh2FEBio
 An under construction API to use FEBio with Gmesh meshes 
 
 1. Create virtual environment and install necessary modules with `pip`:
