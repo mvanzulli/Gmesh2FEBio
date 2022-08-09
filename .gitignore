@@ -1,5 +1,7 @@
+
 # to not track FEBIO 
-jobs/
+*.xplt
+*.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
