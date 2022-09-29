@@ -23,17 +23,17 @@ An under construction API to use FEBio with Gmesh meshes
 2. The GMsh mesh has to be exported as a <NAME>.msh file in the "VERSION 2 ASCII" format in order to be correctly loaded by FEBio Studio. To do so you should click on:
 
 2.1 In case of using an external .stl then a merge with the .stl and mesh entities must be done, therby the follwing steps must be followed: 
-    ```
     > ```File Open``` > ```< filename.stl >```
     > ```Phsical gropus``` > ```Add``` > ```Surface``` > ```<Select the mask>``` > press letter `e`
     > ```Phsical gropus``` > ```Add``` > ```Surface``` > ```<Select the mask>``` > press letter `e`
     > Create new .geo file and save it
     > If the surface is closed we can add a surface loop using ```Add``` > ```Volume``` > press letter `e`
     > ```Phsical gropus``` > ```Add```> ```Volume```> Click on the volume centroid > press letter `e`
-    ```
+
     ```
     File >> Export
     ``` 
+    
     Here you will have to select the .msh file format, or just left the option "guess by extension" and make sure to select a name like <NAME>.msh. In any case, a Box dialog will come up automatically and here we have to:
 
     > Select ```VERSION 2 ASCII``` 
