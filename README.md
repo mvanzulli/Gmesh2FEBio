@@ -19,7 +19,6 @@ An under construction API to use FEBio with Gmesh meshes
     pip install -r requirements-dev.txt
     ```
    
-
 2. The GMsh mesh has to be exported as a <NAME>.msh file in the "VERSION 2 ASCII" format in order to be correctly loaded by FEBio Studio. To do so you should click on:
 
     2.1 In case of using an external .stl then a merge with the .stl and mesh entities must be done, therby the follwing steps must be followed: 
@@ -34,7 +33,12 @@ An under construction API to use FEBio with Gmesh meshes
     Phsical gropus > Add > Volume > Click on the volume centroid > press letter `e`
     ```
     
-    Here you will have to select the .msh file format, or just left the option "guess by extension" and make sure to select a name like <NAME>.msh. In any case, a Box dialog will come up automatically and here we have to:
+    2.2 Create the mesh: 
+    ```
+    Mesh >> 3D
+    ```
+    
+    2.3 Here you will have to select the .msh file format, or just left the option "guess by extension" and make sure to select a name like <NAME>.msh. In any case, a Box dialog will come up automatically and here we have to:
 
     > Select ```VERSION 2 ASCII``` 
     
