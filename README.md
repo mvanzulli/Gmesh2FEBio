@@ -26,7 +26,7 @@ An under construction API to use FEBio with Gmesh meshes
     
 
     ```
-    File >> Open >> <FILENAME>.stl
+    File >> Import geometry >> <NAME>.msh
     ```
 
     
