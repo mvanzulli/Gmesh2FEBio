@@ -24,9 +24,9 @@ An under construction API to use FEBio with Gmesh meshes
 
 2.1 In case of using an external .stl then a merge with the .stl and mesh entities must be done, therby the follwing steps must be followed: 
     
-    ```
-    > File Open > < filename.stl >
-    ```
+    
+    > ```File Open > < filename.stl >```
+    
     
     > ```Phsical gropus``` > ```Add``` > ```Surface``` > ```<Select the mask>``` > press letter `e`
     > ```Phsical gropus``` > ```Add``` > ```Surface``` > ```<Select the mask>``` > press letter `e`
