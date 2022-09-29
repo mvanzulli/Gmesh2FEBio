@@ -26,15 +26,7 @@ An under construction API to use FEBio with Gmesh meshes
     
     > File Open >> < filename.stl >
     
-    > ```Phsical gropus``` > ```Add``` > ```Surface``` > ```<Select the mask>``` > press letter `e`
-    
-    > ```Phsical gropus``` > ```Add``` > ```Surface``` > ```<Select the mask>``` > press letter `e`
-    
-    > Create new .geo file and save it
-    
-    > If the surface is closed we can add a surface loop using ```Add``` > ```Volume``` > press letter `e`
-    
-    > ```Phsical gropus``` > ```Add```> ```Volume```> Click on the volume centroid > press letter `e`
+
 
     ```
     File >> Export
