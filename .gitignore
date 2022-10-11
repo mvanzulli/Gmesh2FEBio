@@ -1,3 +1,8 @@
+
+# to not track FEBIO 
+*.xplt
+*.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
